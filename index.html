@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio sobre Tags DIO</title>
+
+    <style>
+        a {
+            display: flex;
+            flex-direction: column;
+        }
+        img {
+            margin: 0;
+            padding: 0;
+        }
+        .d-flex {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h1>Entendendo um pouco mais sobre tags HTML</h1>
+    <i><small>click em alguma tag para ser direcionado</small></i>
+    <br> <br>
+    <aside id="inicio">
+        <a href="#h1-h6">h1 - h6</a>
+        <a href="#p">p</a>
+        <a href="#mark">mark</a>
+        <a href="#small">small</a>
+        <a href="#i">i</a>
+        <a href="#u">u</a>
+        <a href="#strong">strong</a>
+        <a href="#ol">ol</a>
+        <a href="#li">li</a>
+        <a href="#a">a</a>
+        <a href="#hr">hr</a>
+        <a href="#sub">sub</a>
+        <a href="#sup">sup</a>
+        <a href="#blockquote">blockquote</a>
+        <a href="#font">font</a>
+        <a href="#del">del</a>
+        <a href="#abbr">abbr</a>
+    </aside>
+    <section>
+        <div id="h1-h6">
+            <h3>Tags h1 - h6: Os elementos HTML de cabeçalho da seção</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>
+                Os elementos HTML h1 - h6 representam seis níveis de
+                 título de seção. h1 é o nível de seção mais alto e
+                  h6 é o mais baixo.
+            </p>
+            <p>Exemplo:</p>
+            <div class="d-flex">
+                <img src="./img/print-tag-h1.jpg" alt="">
+                <img src="./img/print-tag-h1-output.jpg" alt="">
+            </div>
+            <p>Elementos de cabeçalho são implementados em seis níveis, 
+                h1 é o mais importante e h6 é o de menor importância. Um elemento 
+                    de cabeçalho descreve brevemente o tópico da seção em que ele está. 
+                    As informações de cabeçalho podem ser usadas por agentes de usuário, 
+                    por exemplo, para construir uma tabela de conteúdos para um documento
+                     automaticamente.
+            </p>
+        </div>
+        <div id="p">
+            <h3>Tag p: O elemento Parágrafo</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>O elemento HTML p representa um parágrafo. Em mídias visuais,
+                 parágrafos são representados como blocos indentados de texto com
+                  a primeira letra avançada e separados por linhas em branco. Já
+                   em HTML, parágrafos são usados para agrupar conteúdos relacionados
+                    de qualquer tipo, como imagens e campos de um formulário.
+            </p>
+        </div>
+        <div id="mark">
+            <h3>Tag mark: </h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>O Elemento HMTL mark representa um trecho de destaque em um texto
+                , por exemplo, uma sequência de texto marcado como referência, devido
+                 à sua relevância em um contexto particular. Por Exemplo, pode ser utilizado
+                  em uma página que mostra os resultados de uma busca onde todas as instâncias
+                   da palavra pesquisadas receberam destaque.
+            </p>
+        </div>
+        <div id="small">
+            <h3>Tag small: o elemento de comentário lateral</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>O elemento HTML small representa comentários laterais e letras pequenas, 
+                como direitos autorais e texto legal, independentemente de sua apresentação 
+                estilizada. Por padrão, ele renderiza o texto dentro dele um tamanho de fonte 
+                menor, como de pequeno para x-pequeno.
+            </p>
+        </div>
+        <div id="i">
+            <h3>Tag i: O elemento Texto Idiomático</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>
+                O elemento HTML representa um intervalo de texto que se destaca do texto 
+                normal por algum motivo, como texto idiomático, termos técnicos, designações 
+                taxonômicas, entre outros. Historicamente, eles foram apresentados usando o tipo 
+                itálico, que é a fonte original da nomenclatura desse elemento.
+            </p>
+        </div>
+        <div id="u">
+            <h3>Tag u: O elemento de anotação não articulada (sublinhado)</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>
+                O elemento HTML representa um intervalo de texto embutido 
+                que deve ser renderizado de uma forma que indique que possui 
+                uma anotação não textual. Isso é renderizado por padrão como um simples 
+                sublinhado sólido, mas pode ser alterado usando CSS.
+            </p>
+        </div>
+        <div id="strong">
+            <h3>Tag strong: O elemento de forte importância</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>
+                O elemento HTML indica que seu conteúdo tem forte importância, 
+                seriedade ou urgência. Os navegadores normalmente renderizam o conteúdo 
+                em negrito.
+            </p>
+        </div>
+        <div id="ol">
+            <h3>Tag ol: O elemento Lista Ordenada</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>
+                O elemento HTML representa uma lista 
+                ordenada de itens — normalmente renderizada como uma lista numerada.
+            </p>
+            <p>Exemplo: </p>
+            <div class="d-flex">
+                <img src="./img/print-tag-ol.jpg" alt="">
+                <img src="./img/output-tag-ol.jpg" alt="">
+            </div>
+        </div>
+        <div id="li">
+            <h3>Tag li: O elemento Item de lista</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>
+                O elemento HTML é usado para representar um item em uma lista. 
+                Ele deve estar contido em um elemento pai: uma lista ordenada, 
+                uma lista não ordenada ou um menu. Em menus e listas não ordenadas, 
+                os itens de lista geralmente são exibidos usando marcadores. Em listas ordenadas, 
+                eles geralmente são exibidos com um contador crescente à esquerda, como um número 
+                ou uma letra.
+            </p>
+        </div>
+        <div id="a">
+            <h3>Tag a: O elemento Âncora</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>
+                O elemento HTML (ou elemento âncora ), com seu atributo , 
+                cria um hiperlink para páginas da Web, arquivos, endereços de e-mail, 
+                locais na mesma página ou qualquer outra coisa que um URL possa endereçar.
+
+                    O conteúdo de cada um 'a' deve indicar o destino do link. Se o hrefatributo 
+                        estiver presente, pressionar a tecla Enter enquanto estiver focado no 'a'
+                            elemento o ativará.
+            </p>
+        </div>
+        <div id="hr">
+            <h3>Tag hr: O elemento Intervalo Temático (Regra Horizontal)</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>
+                O elemento HTML representa uma quebra temática entre elementos 
+                de nível de parágrafo: por exemplo, uma mudança de cena em uma história 
+                ou uma mudança de tópico dentro de uma seção.
+            </p>
+        </div>
+        <div id="sub">
+            <h3>Tag sub: O elemento Subscrito</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>
+                O elemento HTML especifica o texto embutido que deve ser exibido 
+                como subscrito por motivos exclusivamente tipográficos. Os subscritos 
+                normalmente são renderizados com uma linha de base reduzida usando 
+                texto menor.
+            </p>
+            <p>Exemplo: </p>
+            <div>
+                <img src="./img/print-tag-sub.jpg" alt="">
+                <img src="./img/output-tag-sub.jpg" alt="">
+            </div>
+        </div>
+        <div id="sup">
+            <h3>Tag sup: O elemento sobrescrito</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>
+                O elemento HTML especifica o texto embutido que deve ser exibido 
+                como sobrescrito apenas por motivos tipográficos. Os sobrescritos 
+                geralmente são renderizados com uma linha de base elevada usando texto 
+                menor.
+            </p>
+            <p>Exemplo: </p>
+            <div>
+                <img src="./img/print-tag-sup.jpg" alt="">
+                <img src="./img/output-tag-sup.jpg" alt="">
+            </div>
+        </div>
+        <div id="blockquote">
+            <h3>Tag blockquote: O elemento Block Quotation</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>
+                O elemento HTML indica que o texto incluído é uma citação estendida. 
+                Normalmente, isso é renderizado visualmente por recuo (consulte Notas 
+                para saber como alterá-lo). Uma URL para a fonte da citação pode ser 
+                fornecida usando o atributo, enquanto uma representação de texto da 
+                fonte pode ser fornecida usando o elemento.
+            </p>
+        </div>
+        <div id="font">
+            <h3>Tag font: O Elemento para estilização de texto</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>
+                O elemento HTML define o tamanho da fonte, a cor e a face do seu conteúdo.
+            </p>
+            <p>Notas: </p>
+            <p>
+                Preterido: este recurso não é mais recomendado. Embora alguns 
+                navegadores ainda possam suportá-lo, ele pode já ter sido removido 
+                dos padrões da Web relevantes, pode estar em processo de eliminação 
+                ou pode ser mantido apenas para fins de compatibilidade. Evite usá-lo 
+                e atualize o código existente, se possível; consulte a tabela de 
+                compatibilidade na parte inferior desta página para orientar sua decisão. 
+                Esteja ciente de que esse recurso pode deixar de funcionar a qualquer 
+                momento.
+            </p>
+            <p>
+                Aviso: Não use este elemento. Use as propriedades 
+                CSS Fonts para estilizar o texto.
+            </p>
+        </div>
+        <div id="del">
+            <h3>Tag del: O elemento de texto excluído</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>
+                O elemento HTML representa um intervalo de texto que foi excluído 
+                de um documento. Isso pode ser usado ao renderizar "mudanças de faixa" 
+                ou informações de diferenças de código-fonte, por exemplo. O elemento 
+                pode ser usado para o propósito oposto: para indicar o texto que foi 
+                adicionado ao documento.
+            </p>
+            <div>
+                <img src="./img/print-tag-del.jpg" alt="">
+                <img src="./img/output-tag-del.jpg" alt="">
+            </div>
+        </div>
+        <div id="abbr">
+            <h3>Tag abbr: O elemento Abreviação</h3>
+            <a href="#inicio">Voltar ao topo</a>
+            <p>
+                O elemento HTML representa uma abreviação ou acrônimo.
+            </p>
+            <p>
+                Ao incluir uma abreviatura ou acrônimo, forneça uma 
+                expansão completa do termo em texto simples no primeiro 
+                uso, juntamente com o abbr símbolo para marcar a abreviatura. 
+                Isso informa ao usuário o que a abreviação ou sigla significa.
+            </p>
+            <p>
+                O atributo opcional titlepode fornecer uma expansão 
+                para a abreviação ou acrônimo quando uma expansão 
+                completa não estiver presente. Isso fornece uma 
+                dica para os agentes de usuário sobre como anunciar/exibir o 
+                conteúdo enquanto informa a todos os usuários o que a 
+                abreviação significa. Se presente, titledeve conter esta descrição 
+                completa e nada mais.
+            </p>
+        </div>
+    </section>
+</body>
+</html>
